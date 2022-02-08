@@ -1,0 +1,183 @@
+/* (((((((((((((((((((((((((((((((((((( Home )))))))))))))))))))))))))))))))))))) */
+/* (((((((((((((((((((((((((((((((((((( LOGIN )))))))))))))))))))))))))))))))))))) */
+/* (((((((((((((((((((((((((((((((((((( LOGIN )))))))))))))))))))))))))))))))))))) */
+/* (((((((((((((((((((((((((((((((((((( Modal )))))))))))))))))))))))))))))))))))) */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.cd123 {
+  display: none !important;
+}
+.#header-06 .img-wrapper .intro-img .bounce_wrapper img {
+  margin-left: 12%;
+}
+#welcome_cryptonic_06 .about_cryptonic-content img {
+  position: relative;
+  left: 36%;
+  transform: translate(-50%, 0);
+}
+/* Modal Content */
+.modal-content {
+  border: none !important;
+  background-color: #fefefe00;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* (((((()))))) */
+
+#popup1 {
+  position: absolute;
+  margin: 0 auto;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999;
+  padding: 5px;
+  width: 60%;
+  /* background-color: #000;*/
+}
+
+.video {
+  width: 100%;
+  height: 480px;
+}
+
+#close1 {
+  padding: 0px 10px;
+  background-color: #2196f3;
+  border: solid 1px #2196f3;
+  color: #fff;
+  margin-top: 55px;
+  border-radius: 22px;
+  position: absolute;
+  top: -66px;
+  right: 6px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  #popup1 {
+    width: 100%;
+    top: 56%;
+  }
+
+  .video {
+    width: 100%;
+    height: 380px;
+  }
+
+  .online_education {
+    background-color: #2196f3eb !important;
+    background-image: transparent !important;
+  }
+}
+
+/* (((((((((((((((((((((((((((((((((((( LOGIN )))))))))))))))))))))))))))))))))))) */
+
+/* .login_page {
+  background-color: #ffb8b0;
+} */
+
+.footer-section2 {
+  margin-top: 11px;
+  position: inherit !important;
+  left: 0;
+  bottom: 1.3rem !important;
+  width: 100% !important;
+  text-align: center !important;
+  height: 3.3rem;
+  font-size: 1.6rem !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  /* background: url("../../UserAssets/img/spin.gif") 50% 50% no-repeat rgb(249, 249, 249); */
+  display: none;
+  background-size: 100px;
+  opacity: 0.7;
+  background-color: #000;
+}
+
+.alert-danger {
+  color: #ffffff;
+  /* background-color: #ff1900; */
+  border-color: #ffb8b0;
+  padding: 0;
+}
+
+/* ((((((((((((((((((((((((((((((((((((((((((((((((((())))))))))))))))))))))))))))))))))))))))))))))))))) */
+
+/* .App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
